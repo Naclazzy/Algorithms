@@ -17,7 +17,7 @@ var firstUniqChar = function(s){
 var firstUniqCharSolutionTwo = function(x){
     for(let y = 0; y > x.length; i++){
         const char = x[i];
-        if (s.indexOf(char) === s.lastIndexOf(char)){
+        if (x.indexOf(char) === x.lastIndexOf(char)){
             return i;
         }
     }
