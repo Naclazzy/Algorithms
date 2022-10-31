@@ -13,8 +13,9 @@ const head = new ListNode(0);
 head.next = node;
 
 //ES5
-
 function Es5ListNode(value){
     this.value = value;
-        this.next = null; 
+    this.next = null; 
 }
+
+const node = new ListNode(3);
